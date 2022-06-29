@@ -12,6 +12,10 @@
 		D5371BCA286CA7D500743DC2 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5371BC9286CA7D500743DC2 /* MainTabBarViewController.swift */; };
 		D5371BCF286CA7D600743DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5371BCE286CA7D600743DC2 /* Assets.xcassets */; };
 		D5371BD2286CA7D600743DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5371BD0286CA7D600743DC2 /* LaunchScreen.storyboard */; };
+		D5371BDB286CAB2100743DC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5371BDA286CAB2100743DC2 /* HomeViewController.swift */; };
+		D5371BDD286CAB5800743DC2 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5371BDC286CAB5800743DC2 /* UpcomingViewController.swift */; };
+		D5371BDF286CAB7F00743DC2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5371BDE286CAB7F00743DC2 /* SearchViewController.swift */; };
+		D5371BE1286CAB9C00743DC2 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5371BE0286CAB9C00743DC2 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D5371BCE286CA7D600743DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5371BD1286CA7D600743DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5371BD3286CA7D600743DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5371BDA286CAB2100743DC2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D5371BDC286CAB5800743DC2 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		D5371BDE286CAB7F00743DC2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D5371BE0286CAB9C00743DC2 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		D5371BC4286CA7D500743DC2 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				D5371BD9286CAAF900743DC2 /* Controllers */,
 				D5371BC5286CA7D500743DC2 /* AppDelegate.swift */,
 				D5371BC7286CA7D500743DC2 /* SceneDelegate.swift */,
 				D5371BC9286CA7D500743DC2 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				D5371BD3286CA7D600743DC2 /* Info.plist */,
 			);
 			path = NetflixClone;
+			sourceTree = "<group>";
+		};
+		D5371BD9286CAAF900743DC2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5371BDA286CAB2100743DC2 /* HomeViewController.swift */,
+				D5371BDC286CAB5800743DC2 /* UpcomingViewController.swift */,
+				D5371BDE286CAB7F00743DC2 /* SearchViewController.swift */,
+				D5371BE0286CAB9C00743DC2 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5371BDF286CAB7F00743DC2 /* SearchViewController.swift in Sources */,
 				D5371BCA286CA7D500743DC2 /* MainTabBarViewController.swift in Sources */,
+				D5371BE1286CAB9C00743DC2 /* DownloadsViewController.swift in Sources */,
 				D5371BC6286CA7D500743DC2 /* AppDelegate.swift in Sources */,
 				D5371BC8286CA7D500743DC2 /* SceneDelegate.swift in Sources */,
+				D5371BDD286CAB5800743DC2 /* UpcomingViewController.swift in Sources */,
+				D5371BDB286CAB2100743DC2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
